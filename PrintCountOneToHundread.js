@@ -1,10 +1,10 @@
 function PrintCount1to100()
 {
-	var x="";
+	var output="";
 	for(var i = 1;i<=100;i=i+1)
 	{
-		x= x+i+" ";
+		output= output+i+" ";
 	}
-	console.log(x);
+	console.log(output);
 }
 PrintCount1to100();
