@@ -6,7 +6,7 @@ function PrintStar(no_of_star,no_of_space,cur_row_no){
   for(var i = 0;i < no_of_space; ++i){
     pyramid = pyramid+" ";
   }
-	for(var i = 0;i < no_of_star;++i){
+  for(var i = 0;i < no_of_star;++i){
     pyramid = pyramid+"*";
   }
   console.log(pyramid);
